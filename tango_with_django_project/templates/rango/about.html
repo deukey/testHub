@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+<head>
+    <title>Rango About</title>
+</head>
+
+<body>
+    <h1>This is about page.</h1>
+    <strong>{{ welcomemessage }}</strong><br />
+    <h3>This is serious picture.</h3><br />
+    <img src="{% static 'rango/putty.png' %}" alt="Some serious pic" />
+</body>
+
+</html>
